@@ -52,6 +52,11 @@ The following machine learning models were used:
 - Support Vector Machine (SVM)
 - Gradient Boosting Classifier
 - XGBoost Classifier
+## Hyperparameter Tuning:
+To optimize model performance, hyperparameter tuning was performed using GridSearchCV and RandomizedSearchCV. The following parameters were tuned:
+- Random Forest Classifier: Number of trees (n_estimators), depth (max_depth), and number of features (max_features).
+- Gradient Boosting Classifier: Learning rate (learning_rate), number of estimators (n_estimators), and maximum depth (max_depth).
+- XGBoost Classifier: Learning rate (learning_rate), number of boosting rounds (n_estimators), and max_depth.
 ## Evaluation:
 The models are evaluated using several metrics, including:
 - Accuracy: The percentage of correct predictions.
