@@ -5,7 +5,6 @@ This project focuses on analyzing and predicting the likelihood of a heart attac
 ## Project Structure:
 - Exploratory Data Analysis (EDA): Insights into the dataset using visualization and statistical summaries.
 - Feature Engineering: Preprocessing and transforming the data to improve model performance.
-- Hyperprameter Tuning.
 - Modeling: Training various machine learning models to predict heart attack risks, including:
     - Logistic Regression
     - Decision Tree Classifier
@@ -14,7 +13,8 @@ This project focuses on analyzing and predicting the likelihood of a heart attac
     - Gradient Boosting Classifier
     - XGBoost Classifier
     - K-Nearest Neighbors Classifier (KNN)
-- Model Evaluation: Assessing model performance using metrics like accuracy, precision, recall, F1 score, and ROC-AUC.
+- Model Evaluation: Assessing model performance using metrics like accuracy, precision, recall, F1 score.
+- Hyperparameter Tuning: Optimizing model performance using GridSearchCV or RandomizedSearchCV to fine-tune the parameters of models such as Random Forest, Gradient Boosting, and XGBoost.
 ## Installation:
 To install the required libraries for this project, run the following commands:
 ```
