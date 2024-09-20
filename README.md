@@ -6,13 +6,13 @@ This project focuses on analyzing and predicting the likelihood of a heart attac
 - Exploratory Data Analysis (EDA): Insights into the dataset using visualization and statistical summaries.
 - Feature Engineering: Preprocessing and transforming the data to improve model performance.
 - Modeling: Training various machine learning models to predict heart attack risks, including:
-    - Logistic Regression
-    - Decision Tree Classifier
-    - Random Forest Classifier
-    - Support Vector Machine (SVM)
-    - Gradient Boosting Classifier
-    - XGBoost Classifier
-    - K-Nearest Neighbors Classifier (KNN)
+    - **Logistic Regression**
+    - **Decision Tree Classifier**
+    - **Random Forest Classifier**
+    - **Support Vector Machine (SVM)**
+    - **Gradient Boosting Classifier**
+    - **XGBoost Classifier**
+    - **K-Nearest Neighbors Classifier (KNN)**
 - Model Evaluation: Assessing model performance using metrics like accuracy, precision, recall, F1 score.
 - Hyperparameter Tuning: Optimizing model performance using GridSearchCV or RandomizedSearchCV to fine-tune the parameters of models such as Random Forest, Gradient Boosting, and XGBoost.
 ## Installation:
@@ -45,13 +45,13 @@ The dataset contains clinical data for patients, with features such as:
 - Presence of chest pain, ST depression, and slope of peak exercise.
 ## Models:
 The following machine learning models were used:
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
-- K-Nearest Neighbors Classifier
-- Support Vector Machine (SVM)
-- Gradient Boosting Classifier
-- XGBoost Classifier
+- **Logistic Regression**
+- **Decision Tree Classifier**
+- **Random Forest Classifier**
+- **K-Nearest Neighbors Classifier**
+- **Support Vector Machine (SVM)**
+- **Gradient Boosting Classifier**
+- **XGBoost Classifier**
 ## Hyperparameter Tuning:
 To optimize model performance, hyperparameter tuning was performed using GridSearchCV and RandomizedSearchCV. The following parameters were tuned:
 - Random Forest Classifier: Number of trees (n_estimators), depth (max_depth), and number of features (max_features).
